@@ -1,16 +1,15 @@
-# React + Vite
+# 多人記帳拆帳 (PWA 行動版)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+專為手機輸入設計的親子與多人團體分帳記帳 Web 軟體，支援大人/小孩設定、夫妻檔歸併與按代付者直連歸還方案。
 
-Currently, two official plugins are available:
+## 🌟 核心特色
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **💳 按代付者直連歸還**：誰幫我刷卡，我就直接歸還給誰，計算最直觀。
+2. **👨‍👩‍👧‍👦 夫妻檔與小孩歸併**：小孩可歸屬家長，夫妻檔金額自動併入同一家庭戶頭。
+3. **👶 小孩金額指定輸入**：支援小孩指定金額，剩餘由大人自動平分。
+4. **✈️ 行程名稱設定**：可自由輸入行程活動名稱，並顯示於頂部與一鍵複製 LINE 分帳報告中。
+5. **📱 PWA 無網路離線支援**：iPhone / Android 「加入主畫面」後支援全螢幕 100% 離線記帳。
 
-## React Compiler
+## 📲 網址
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+https://taichi16.github.io/splitthebill/
